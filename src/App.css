@@ -1,0 +1,425 @@
+.AddPatient button {
+    background-color: white;
+}
+
+.Page {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Patients {
+    float: left;
+    width: 25%;
+    border-right: 2px solid #000000;
+}
+
+.Patients a {
+    margin-left: 6%;
+    text-decoration: none;
+}
+
+.Patients p {
+    margin-left: 6%;
+}
+
+.patient-initials {
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 30%;
+}
+
+.patient-initials a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.patient-initials p {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+.patients-list {
+    height: 140px;
+}
+
+.patients-bar {
+    height: 85px;
+    border-bottom: 2px solid #000000;
+}
+
+.patients-bar input[type=text] {
+    margin-left: 6.5%;
+    margin-top: 6%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.patients-bar input[type=text]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.patients-bar button {
+    float: right;
+    margin-top: 6%;
+    margin-right: 3%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.patients-bar button:focus {
+    border-color: #58ac3b;
+    box-shadow: 0 0 8px 0 #58ac3b;
+}
+
+.overflow-scroll-patients {
+    width: 100%;
+    height: 855px;
+    overflow: auto;
+}
+
+.overflow-scroll-patients :hover {
+    background: #9b9d9b;
+}
+
+.gender-img {
+    float: right;
+    margin-right: 5%;
+    margin-top: -89px;
+}
+
+.Header {
+    height: 85px;
+    font-weight: bold;
+    width: 74.1%;
+    float: left;
+    border-bottom: 2px solid #000000;
+}
+
+.Header p {
+    font-size: 18px;
+    margin-top: 2%;
+    margin-left: 4%;
+    float: left;
+}
+
+.patient_crud {
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 30px;
+}
+
+.patient_crud button {
+    width: 140px;
+    height: 40px;
+    padding: 10px 24px;
+    margin-right: 50px;
+    border-radius: 20px;
+    border: 2px solid #aaa;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.Trash-icon-patient {
+    background-color: #d65050;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.Trash-icon-patient:focus {
+    border-color: #d65050;
+    box-shadow: 0 0 8px 0 #d65050;
+}
+
+.UserEdit-icon-patient {
+    background-color: #f1a56a;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.UserEdit-icon-patient:focus {
+    border-color: #f1a56a;
+    box-shadow: 0 0 8px 0 #f1a56a;
+}
+
+.PatientInfo {
+    width: 74.1%;
+    float: left;
+    top: 0;
+    left: 0;
+    height: 855px;
+}
+
+.patient-info-table th {
+    font-size: 18px;
+    float: left;
+    border: 8px solid #ffffff;
+}
+
+.patient-info-table td {
+    padding: 3px;
+    font-size: 20px;
+    border: 8px solid #ffffff;
+}
+
+.patient-info-table {
+    margin-left: 0%;
+    margin-top: 2%;
+    width: 450px;
+    word-break: break-all;
+    border-collapse: collapse;
+}
+
+.Comments {
+    background-color: #d2cdcd;
+    width: 53%;
+    height: 93%;
+    float: right;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin-right: 0;
+    margin-top: -230px;
+}
+
+.Comments h6 {
+    font-size: 24px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.patient-comments {
+    width: 93%;
+    margin-left: 25px;
+    margin-top: 60px;
+    border: 2px solid #8f8e8e;
+    border-radius: 10px;
+    height: 220px;
+}
+
+.patient-comments p {
+    margin-left: 3%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.overflow-scroll-comments {
+    height: 72%;
+    margin-top: -20px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.overflow-scroll-comments :hover {
+    background: #9b9d9b;
+}
+
+.overflow-scroll-comments button:hover {
+    background: #d65050;
+}
+
+.Comments button {
+    margin-top: -50px;
+    float: right;
+    width: 80px;
+    height: 40px;
+    padding: 10px 24px;
+    margin-right: 15px;
+    border-radius: 20px;
+    border: 2px solid #aaa;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.EasyEdit {
+    margin-left: 4%;
+    width: 77%;
+    height: 120px;
+    word-break: break-all;
+    font-weight: bold;
+}
+
+.Edit-comment-submit {
+    font-size: 20px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.Edit-comment-cancel {
+    font-size: 20px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.EasyEdit button {
+    margin-top: 1%;
+    width: 40px;
+    height: 30px;
+    margin-right: 100px;
+    float: right;
+}
+
+.EasyEdit textarea {
+    background-color: #d2cdcd;
+    width: 487px;
+    height: 112px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    resize: none;
+}
+
+.AddComments textarea {
+    margin-top: 3%;
+    margin-left: 3.2%;
+    width: 77%;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    resize: none;
+}
+
+.AddComments button {
+    margin-right: 20px;
+    margin-top: 3%;
+    width: 67px;
+    height: 63px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+}
+
+.Plus-icon {
+    font-size: 77px;
+    margin-top: -19px;
+    margin-left: -26px;
+}
+
+.Trash-icon-comments {
+    background-color: #d65050;
+    font-size: 20px;
+    margin-top: -1%;
+    margin-left: 0px;
+}
+
+.Trash-icon-comments:focus {
+    border-color: #d65050;
+    box-shadow: 0 0 8px 0 #d65050;
+}
+
+.AddPatient {
+    margin-top: 85px;
+    width: 74.1%;
+    float: left;
+    top: 0;
+    left: 0;
+    height: 855px;
+    border-top: 2px solid #000000;
+}
+
+.AddPatient input {
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.patient-add-table th {
+    font-size: 18px;
+    float: left;
+    border: 8px solid #ffffff;
+}
+
+.patient-add-table td {
+    padding: 3px;
+    font-size: 20px;
+    border: 8px solid #ffffff;
+}
+
+.patient-add-table {
+    margin-left: 30%;
+    margin-top: 4%;
+    width: 450px;
+    word-break: break-all;
+    border-collapse: collapse;
+}
+
+.Close-icon {
+    margin-left: 43.8%;
+    width: 6.5%;
+    border: 2px solid #d65050;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.Check-icon {
+    width: 6.5%;
+    border: 2px solid #58ac3b;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+.Close-icon:focus {
+    border-color: #d65050;
+    box-shadow: 0 0 8px 0 #d65050;
+}
+
+.Check-icon:focus {
+    border-color: #58ac3b;
+    box-shadow: 0 0 8px 0 #58ac3b;
+}
+
+.EditPatient {
+    margin-top: 85px;
+    width: 74.1%;
+    float: left;
+    top: 0;
+    left: 0;
+    height: 855px;
+    border-top: 2px solid #000000;
+}
+
+.EditPatient input {
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.patient-edit-table th {
+    font-size: 18px;
+    float: left;
+    border: 8px solid #ffffff;
+}
+
+.patient-edit-table td {
+    padding: 3px;
+    font-size: 20px;
+    border: 8px solid #ffffff;
+}
+
+.patient-edit-table {
+    margin-left: 30%;
+    margin-top: 4%;
+    width: 450px;
+    word-break: break-all;
+    border-collapse: collapse;
+}
+
+
